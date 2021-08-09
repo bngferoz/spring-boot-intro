@@ -1,0 +1,7 @@
+package com.springFeroz.app.ws.userservice;
+
+import com.springFeroz.app.ws.ui.model.request.UserDetailsRequestModel;
+
+public interface UserService {
+	UserRest createUser(UserDetailsRequestModel userDetails);
+}

@@ -1,0 +1,13 @@
+package com.springFeroz.photoapp.users.service;
+
+import com.springFeroz.photoapp.users.shared.UserDTO;
+
+public class UsersServiceImpl implements UsersService {
+
+	@Override
+	public UserDTO createUser(UserDTO userDetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

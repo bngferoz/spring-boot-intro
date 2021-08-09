@@ -1,0 +1,5 @@
+package com.springFeroz.photoapp.users.service;
+
+public class UsersServiceImpl implements UsersService {
+
+}

@@ -1,0 +1,14 @@
+package com.springFeroz.photoapp.users.service;
+
+import java.util.UUID;
+
+import com.springFeroz.photoapp.users.shared.UserDTO;
+
+public class UsersServiceImpl implements UsersService {
+
+	@Override
+	public UserDTO createUser(UserDTO userDetails) {
+		userDetails.setUserId(UUID.randomUUID().toString());
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.springFeroz.photoapp.users.ui.controllers;
+
+public class UsersController {
+
+}

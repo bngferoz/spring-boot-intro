@@ -1,0 +1,8 @@
+package com.springFeroz.photoapp.users.security;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class WebSecurity {
+
+}

@@ -1,0 +1,5 @@
+package com.springFeroz.app.ws.ui.model.request;
+
+public class UserDetailsRequestModel {
+
+}

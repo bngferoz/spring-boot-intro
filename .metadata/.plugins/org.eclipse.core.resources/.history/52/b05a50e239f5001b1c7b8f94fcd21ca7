@@ -1,0 +1,7 @@
+package com.springFeroz.photoapp.users.service;
+
+import com.springFeroz.photoapp.users.shared.UserDTO;
+
+public interface UsersService {
+	UserDTO createUser(UserDTO userDetails);
+}

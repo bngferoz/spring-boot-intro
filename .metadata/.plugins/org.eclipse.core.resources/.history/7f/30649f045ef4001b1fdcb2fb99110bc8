@@ -1,0 +1,30 @@
+package com.springFeroz.app.ws.userservice.impl;
+
+import java.util.HashMap;
+import java.util.UUID;
+
+import com.springFeroz.app.ws.ui.model.request.UserDetailsRequestModel;
+import com.springFeroz.app.ws.ui.model.response.UserRest;
+import com.springFeroz.app.ws.userservice.UserService;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserRest createUser(UserDetailsRequestModel userDetails) {
+		UserRest returnValue = new UserRest();
+		returnValue.setEmail(userDetails.getEmail());
+		returnValue.setFirstName(userDetails.getFirstName());
+		returnValue.setLastName(userDetails.getLastName());
+		
+		String userId = UUID.randomUUID().toString();
+		returnValue.setUserId(userId);
+		
+		if(users == null)
+		{
+			users = new HashMap<>();
+		}
+		users.put(userId, returnValue);
+		
+	}
+
+}

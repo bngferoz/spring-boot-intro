@@ -1,0 +1,17 @@
+server.port = ${PORT:0}
+spring.application.name=users-ws
+eureka.client.serviceUrl.defaultZone= http://localhost:8010/eureka
+eureka.client.fetch-registry=true
+spring.devtools.restart.enabled=true
+eureka.instance.instance-id=${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+spring.h2.console.enabled=true
+spring.h2.console.settings.web-allow-others=true
+spring.datasource.url=jdbc:h2:mem:desiredName
+
+#10 days
+token.expiration_time = 864000000
+
+token.secret = hfgry463hf573ydh475fhy5739
+
+login.url.path = /users/login

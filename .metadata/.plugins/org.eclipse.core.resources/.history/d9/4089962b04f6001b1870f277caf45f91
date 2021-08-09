@@ -1,0 +1,14 @@
+package com.springFeroz.photoapp.gateway.security;
+
+import org.springframework.core.env.Environment;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
+
+public class AuthorizationFilter extends BasicAuthenticationFilter{
+
+	Environment env;
+	public AuthorizationFilter(AuthenticationManager auth, Environment env)
+	{
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.springFeroz.photoapp.account.ui.controllers;
+
+public class AccountController {
+
+}

@@ -1,0 +1,5 @@
+package com.springFeroz.app.ws.userservice;
+
+public interface UserService {
+	createUser();
+}

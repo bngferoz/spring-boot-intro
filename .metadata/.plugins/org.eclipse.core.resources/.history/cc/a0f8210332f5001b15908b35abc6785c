@@ -1,0 +1,5 @@
+package com.springFeroz.photoapp.users.security;
+
+public class WebSecurity {
+
+}

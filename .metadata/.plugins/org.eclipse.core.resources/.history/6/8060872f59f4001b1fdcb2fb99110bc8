@@ -1,0 +1,5 @@
+package com.springFeroz.app.ws.exceptions;
+
+public class UserServiceException {
+
+}

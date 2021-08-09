@@ -1,0 +1,15 @@
+package com.springFeroz.app.ws.userservice.impl;
+
+import com.springFeroz.app.ws.ui.model.request.UserDetailsRequestModel;
+import com.springFeroz.app.ws.ui.model.response.UserRest;
+import com.springFeroz.app.ws.userservice.UserService;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public UserRest createUser(UserDetailsRequestModel userDetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
